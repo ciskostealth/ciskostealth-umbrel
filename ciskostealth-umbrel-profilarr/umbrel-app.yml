@@ -1,0 +1,50 @@
+manifestVersion: 1
+id: ciskostealth-umbrel-profilarr
+name: Profilarr
+tagline: Profile builder and manager for Radarr and Sonarr
+icon: https://raw.githubusercontent.com/ciskostealth/ciskostealth-umbrel/master/ciskostealth-umbrel-profilarr/icon.svg
+category: utilities
+version: "1.1.4"
+port: 6868
+description: >-
+  Profilarr is a profile builder and manager for Radarr and Sonarr. Create, customize, and manage quality profiles and custom formats with an intuitive visual interface.
+
+
+  **Features:**
+
+  - Visual profile builder for Radarr and Sonarr
+  - Custom format management
+  - Quality profile configuration
+  - Easy-to-use web interface
+  - Multi-instance support
+
+
+  **Getting Started:**
+
+  1. Open http://umbrel.local:6868 (or your device IP:6868)
+  2. Configure your Radarr/Sonarr instance URLs and API keys
+  3. Start building and managing your profiles
+
+
+  **Setup Requirements:**
+
+  - Radarr and/or Sonarr instances with API access
+  - Internet connectivity (optional, for some features)
+
+developer: SantiagoSaysHey
+website: https://github.com/santiagosayshey/profilarr
+submitter: ciskostealth
+submission: https://github.com/ciskostealth/ciskostealth-umbrel
+repo: https://github.com/santiagosayshey/profilarr
+support: https://github.com/santiagosayshey/profilarr/issues
+gallery:
+  - https://raw.githubusercontent.com/ciskostealth/ciskostealth-umbrel/master/ciskostealth-umbrel-profilarr/1.jpg
+  - https://raw.githubusercontent.com/ciskostealth/ciskostealth-umbrel/master/ciskostealth-umbrel-profilarr/2.jpg
+  - https://raw.githubusercontent.com/ciskostealth/ciskostealth-umbrel/master/ciskostealth-umbrel-profilarr/3.jpg
+releaseNotes: >-
+  v1.1.4: Latest release. See https://github.com/santiagosayshey/profilarr/releases/tag/v1.1.4 for details.
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+permissions: []
