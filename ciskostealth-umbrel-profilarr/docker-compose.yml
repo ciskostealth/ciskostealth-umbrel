@@ -11,7 +11,7 @@ services:
   profilarr:
     image: santiagosayshey/profilarr:v1.1.4
     environment:
-      - TZ=EST
+      - TZ=America/New_York
       - PUID=99
       - PGID=100
     volumes:
