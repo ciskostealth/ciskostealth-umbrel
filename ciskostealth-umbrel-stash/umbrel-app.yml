@@ -1,0 +1,51 @@
+manifestVersion: 1
+id: ciskostealth-umbrel-stash
+name: Stash
+tagline: An organizer for your adult content, written in Go
+icon: https://raw.githubusercontent.com/ciskostealth/ciskostealth-umbrel/master/ciskostealth-umbrel-stash/icon.svg
+category: media
+version: "0.31.1"
+port: 9999
+description: >-
+  Stash is a self-hosted organizer for your adult media collection, written in Go. It indexes, tags, and organizes your content with an intuitive web interface, automatic metadata scraping, and powerful search and filtering.
+
+
+  **Features:**
+
+  - Automatic metadata scraping from multiple community sources
+  - Powerful search, filtering, and tagging
+  - Scene, performer, studio, and tag management
+  - Built-in DLNA support for streaming to devices
+  - Image and video preview generation
+  - Plugin and scraper support
+
+
+  **Getting Started:**
+
+  1. Open http://umbrel.local:9999 (or your device IP:9999)
+  2. Complete the initial setup wizard
+  3. Point Stash at your media collection and let it scan
+
+
+  **Setup Requirements:**
+
+  - A media collection to organize
+  - Sufficient storage for metadata, cache, and generated content
+
+developer: StashApp
+website: https://stashapp.cc/
+submitter: ciskostealth
+submission: https://github.com/ciskostealth/ciskostealth-umbrel
+repo: https://github.com/stashapp/stash
+support: https://github.com/stashapp/stash/issues
+gallery:
+  - https://raw.githubusercontent.com/ciskostealth/ciskostealth-umbrel/master/ciskostealth-umbrel-stash/1.jpg
+  - https://raw.githubusercontent.com/ciskostealth/ciskostealth-umbrel/master/ciskostealth-umbrel-stash/2.jpg
+  - https://raw.githubusercontent.com/ciskostealth/ciskostealth-umbrel/master/ciskostealth-umbrel-stash/3.jpg
+releaseNotes: >-
+  v0.31.1: Latest release. See https://github.com/stashapp/stash/releases for details.
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+permissions: []
