@@ -9,7 +9,7 @@ services:
       APP_PORT: 6868
 
   profilarr:
-    image: santiagosayshey/profilarr:v1.1.4
+    image: ghcr.io/dictionarry-hub/profilarr:2.2.0
     environment:
       - TZ=America/New_York
       - PUID=99

@@ -4,19 +4,19 @@ name: Profilarr
 tagline: Profile builder and manager for Radarr and Sonarr
 icon: https://raw.githubusercontent.com/ciskostealth/ciskostealth-umbrel/master/ciskostealth-umbrel-profilarr/icon.svg
 category: utilities
-version: "1.1.4"
+version: "2.2.0"
 port: 6868
 description: >-
-  Profilarr is a profile builder and manager for Radarr and Sonarr. Create, customize, and manage quality profiles and custom formats with an intuitive visual interface.
+  Profilarr is a configuration management platform for Radarr and Sonarr. Build, test, and deploy quality profiles, custom formats, and media management settings across your media stack.
 
 
   **Features:**
 
-  - Visual profile builder for Radarr and Sonarr
-  - Custom format management
-  - Quality profile configuration
-  - Easy-to-use web interface
-  - Multi-instance support
+  - Link curated databases (Dictionarry, TRaSH Guides, Dumpstarr) or build your own
+  - Quality profiles, custom formats, and reusable regular expressions
+  - Media management, delay profiles, and quality definitions
+  - Sync configurations to any number of Arr instances
+  - Automated upgrades, bulk rename, scheduled jobs, and notifications
 
 
   **Getting Started:**
@@ -28,21 +28,24 @@ description: >-
 
   **Setup Requirements:**
 
-  - Radarr and/or Sonarr instances with API access
-  - Internet connectivity (optional, for some features)
+  - Sonarr v4+ and/or Radarr v5+ with API access
+  - Docker host with Linux kernel 3.17+ (Synology DSM on kernel 3.10 is not supported)
 
-developer: SantiagoSaysHey
-website: https://github.com/santiagosayshey/profilarr
+
+  **Note:** Profilarr v2 is not compatible with v1. Existing v1 databases and configurations cannot be migrated and must be set up fresh.
+
+developer: Dictionarry-Hub
+website: https://dictionarry.dev/
 submitter: ciskostealth
 submission: https://github.com/ciskostealth/ciskostealth-umbrel
-repo: https://github.com/santiagosayshey/profilarr
-support: https://github.com/santiagosayshey/profilarr/issues
+repo: https://github.com/Dictionarry-Hub/profilarr
+support: https://github.com/Dictionarry-Hub/profilarr/issues
 gallery:
   - https://raw.githubusercontent.com/ciskostealth/ciskostealth-umbrel/master/ciskostealth-umbrel-profilarr/1.jpg
   - https://raw.githubusercontent.com/ciskostealth/ciskostealth-umbrel/master/ciskostealth-umbrel-profilarr/2.jpg
   - https://raw.githubusercontent.com/ciskostealth/ciskostealth-umbrel/master/ciskostealth-umbrel-profilarr/3.jpg
 releaseNotes: >-
-  v1.1.4: Latest release. See https://github.com/santiagosayshey/profilarr/releases/tag/v1.1.4 for details.
+  v2.2.0: Major release. Profilarr v2 is a full rewrite with a new database format, so v1 data cannot be migrated. Adds release-group filtering and release date sorting to library views, plus various fixes. See https://github.com/Dictionarry-Hub/profilarr/releases/tag/v2.2.0 for details.
 dependencies: []
 path: ""
 defaultUsername: ""
